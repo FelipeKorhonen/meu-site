@@ -36,13 +36,12 @@ body {
 
 
 h2 {
-    font-family: 'Dancing Script', cursive;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 h3 {
-    padding: 10px 0px;
-    margin: 0px 10px;
+    padding-top: 10px;
 }
 
 header {
@@ -86,7 +85,7 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    padding: 11px;
+    padding: 10px;
 }
 
 main img {
@@ -94,20 +93,25 @@ main img {
     margin: auto;
 }
 
-picture >ul {
+picture > ul {
+    margin-left: 0px;
     list-style-position: inside;
-    columns: 2;
+    columns: 4;
+    margin-left: 0px;
 }
 
 picture > ul > li {
-    margin: auto;
-    padding: 0px;
+    padding: 8px;    
 }
 
+article {
+    text-align: center;
+}
 
 article >h2 {
+    display: inline-block;
+    text-align: center;
     font-size: 2.4em;
-    margin: auto;
 }
 
 article > p {
@@ -121,8 +125,8 @@ article > p {
 
 aside {
     display: inline-block;
-    width: 270px;
-    height: 260px;
+    max-width: 800px;
+    height: 130px;
     background-color: #003dd6a8;
     border-radius: 5px;
 }
