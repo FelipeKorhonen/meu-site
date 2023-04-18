@@ -7,6 +7,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -25,10 +26,10 @@ body {
 }
 
 .carpa {
-    width: 40%;
+    width: 60vw;
     padding-top: 5px;
-    display: absolute; 
-    margin: -32px 0px -150px 360px;
+    display: inline-block; 
+    margin-left: 170px;
     text-align: right;
 
 }
@@ -60,6 +61,8 @@ header > h1 {
 
 nav {
     background-color: #dad1e0c7;
+    margin: 0px 5px ;
+    border-radius: 5px;
     padding: 15px;
 }
 
@@ -67,6 +70,7 @@ nav > a {
     color: var(--cor3);
     padding: 12px;
     font-weight: bold;
+    text-decoration: none;
     transition-duration: 0.5s;
 }
 
@@ -74,7 +78,7 @@ nav:hover a {
     color: #0A0F0D;
     padding: 10px;
     border-radius: 5px;
-    background-color: #003CD6
+    background-color: #003dd6a8;
     
 }
 
@@ -82,7 +86,6 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 89px;
     padding: 11px;
 }
 
@@ -97,7 +100,8 @@ picture >ul {
 }
 
 picture > ul > li {
-    margin: 0px 0px 0px 19px;
+    margin: auto;
+    padding: 0px;
 }
 
 
@@ -116,24 +120,28 @@ article > p {
 }
 
 aside {
+    display: inline-block;
+    width: 270px;
+    height: 260px;
     background-color: #003dd6a8;
     border-radius: 5px;
-    width: 210px 
 }
 
 
 footer {
-    color: var(--cor2);
+    background: var(--cor2);
+    color: var(--cor3);
+    padding: 5px;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.1em;
 }
 
 footer > a {
-    color: var(--cor2);
+    color: var(--cor3);
     font-weight: bolder;
     text-decoration: none;
 }
 
 footer > a:hover {
-    background-color: var(--cor3);
+    background-color: #003dd6a8;
 }
