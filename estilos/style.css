@@ -26,7 +26,8 @@ body {
 
 .carpa {
     width: 40%;
-    display: block; 
+    padding-top: 5px;
+    display: absolute; 
     margin: -32px 0px -150px 360px;
     text-align: right;
 
