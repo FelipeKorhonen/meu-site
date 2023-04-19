@@ -92,6 +92,12 @@ main {
     display: block; 
     max-width: 25vw;
     margin: auto;
+    border-radius: 50px;
+}
+
+a > img:hover {
+    background-color: var(--cor0);
+    box-shadow: 1px 0px 30px var(--cor0) ;
 }
 
 picture > ul {
@@ -148,5 +154,7 @@ footer > a {
 }
 
 footer > a:hover {
-    background-color: #003dd6a8;
+    background-color: var(--cor0);
+    border-radius:5px;
+    padding: 2px;
 }
